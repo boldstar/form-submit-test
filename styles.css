@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-self: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(0,0,0,.25);
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+}
