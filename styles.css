@@ -37,3 +37,9 @@ button {
     cursor: pointer;
     padding: 10px;
 }
+.input {
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
